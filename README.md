@@ -21,7 +21,7 @@ Este proyecto es una API para gestionar notas con funcionalidades de CRUD y una 
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/tu_proyecto.git
+git clone https://github.com/Aljodor21/MV3-CES3.git
 cd tu_proyecto
 ```
 
@@ -142,15 +142,20 @@ También puedes probar el modelo `Note` con Django REST Framework en:
 ## 🛠 Estructura del Proyecto
 
 ```
-project/
-├── tasks/                  # App principal
+MV3/
+├── notes/                  # App principal
 │   ├── models.py           # Modelo Note
 │   ├── schema.py           # GraphQL Schema con Strawberry
 │   ├── serializers.py      # (Opcional) DRF Serializer para Note
 │   └── ...
-├── manage.py
-├── Dockerfile
+├── core/                   # Proyecto principal
+│   ├── settings.py         # Configuracion general
+├── .env                    # Debes crearlo
+├── .gitignore
 ├── docker-compose.yml
+├── Dockerfile
+├── favicon.ico
+├── manage.py
 └── requirements.txt
 ```
 
@@ -158,7 +163,7 @@ project/
 
 ## 📚 Requisitos extra
 
-Para correr fuera de Docker:
+Para correr fuera de Docker (Recomendado crear un entorno virtual):
 
 ```bash
 pip install -r requirements.txt
