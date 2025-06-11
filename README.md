@@ -22,7 +22,7 @@ Este proyecto es una API para gestionar notas con funcionalidades de CRUD y una 
 
 ```bash
 git clone https://github.com/Aljodor21/MV3-CES3.git
-cd tu_proyecto
+cd MV3
 ```
 
 ### 2. Crea el archivo `.env`
